@@ -1,0 +1,33 @@
+/* styles.css */
+body {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.gallery-container {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-image {
+    max-width: 50%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: transform 0.3s;
+
+}
+
+.gallery-image:hover {
+    transform: scale(1.1);
+}
+.botton{
+   padding: 10px;
+   max-width: 50%;
+   
+
+}
